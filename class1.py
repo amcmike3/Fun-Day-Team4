@@ -33,11 +33,11 @@ if scriptChoice == 1:
           ", and then we can leave I was grateful to hear this, since I wanted to leave as soon as possible. \n" +
           "I walked back through the crowd to tell Katie the details on our leaving time. Man, I was so " + input8 +  "to leave!")
 elif scriptChoice == 2:
-    pass
+    print("FIX ME")
 elif scriptChoice == 3:
-    pass
+    print("FIX ME")
 elif scriptChoice == 4:
-    pass
+    print("FIX ME")
 else:
     print("sorry that was not a valid choice type a number between 1 and 4")
 
