@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>Mad Lab Script</title>
+<script>
+function handleOnSubmit(){
+var objective1 = document.getElementById('objective1').value;
+var nationality = document.getElementById('nationality').value;
+var person = document.getElementById('person').value;
+var noun1 = document.getElementById('noun1').value;
+var objective2 = document.getElementById('objective2').value;
+var noun2 = document.getElementById('noun2').value;
+var objective3 = document.getElementById('objective3').value;
+var objective4 = document.getElementById('objective4').value;
+var pluralnoun = document.getElementById('pluralnoun').value;
+var noun3 = document.getElementById('noun3').value;
+var number1 = document.getElementById('number1').value;
+var shapes = document.getElementById('shapes').value;
+var food1 = document.getElementById('food1').value;
+var food2 = document.getElementById('food2').value;
+var number2 = document.getElementById('number2').value;
+document.write("Pizza was invented by a "+objective1+" "+nationality+" chef named "+person+"."+"<br>");
+document.write("To make a pizza you need to take a lump of "+noun1+",");
+document.write("and make a thin, round "+objective2+" "+noun2+". "+"<br>");
+document.write("Then you cover it with "+objective3+" sauce,");
+document.write(" "+objective4+" cheese, and fresh chopped "+pluralnoun+". "+"<br>");
+document.write("Next you have to bake it in a very hot "+noun3+". "+"<br>");
+document.write("When it is done, cut into "+number1+" "+shapes+". "+"<br>");
+document.write("Some kids like "+food1+" pizza the best, but my favorite is the "+food2+" pizza. "+"<br>");
+document.write("If I could, I would eat pizza "+number2+" times a day!");
+}
+</script>
+</head>
+<body>
+<pre>
+<form name="myform" action="registration.jsp" onSubmit="handleOnSubmit()">
+objective: <input type="text" name ="objective1" id ="objective1"/>
+nationality: <input type="text" name ="nationality" id ="nationality"/>
+person: <input type="text" name ="person" id ="person"/>
+noun: <input type="text" name ="noun1" id ="noun1"/>
+objective: <input type="text" name ="objective2" id ="objective2"/>
+noun: <input type="text" name ="noun2" id ="noun2"/>
+objective: <input type="text" name ="objective3" id ="objective3"/>
+objective: <input type="text" name ="objective4" id ="objective4"/>
+plural noun: <input type="text" name ="pluralnoun" id ="pluralnoun"/>
+noun: <input type="text" name ="noun3" id ="noun3"/>
+number: <input type="text" name ="number1" id ="number1"/>
+shapes: <input type="text" name ="shapes" id ="shapes"/>
+food: <input type="text" name ="food1" id ="food1"/>
+food: <input type="text" name ="food2" id ="food2"/>
+number: <input type="text" name ="number2" id ="number2"/>
+<input type="submit" value="Generate Mad Lab Script"/>
+</pre>
+</form>
+</body>
+</html>
